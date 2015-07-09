@@ -42,7 +42,7 @@ public class BU {
 		
 	}
 
-	public  Integer selectCandidate(Integer blueBId) {
+	public  int selectCandidate(Integer blueBId) {
 		// TODO Auto-generated method stub
 		for(Integer i=0;i<can.size();i++){
 			if(can.get(i).canId==blueBId){//when respective PannelButton is pressed then Elevator will be called on that Floor
