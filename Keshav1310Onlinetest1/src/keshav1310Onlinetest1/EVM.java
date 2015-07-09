@@ -5,6 +5,11 @@ public class EVM {
 	CU c = new CU();
 	BU b = new BU();
 	
+	
+	public void pressBlueButton(Integer vote){
+		b.castVote(vote);
+
+	}
 	public void getVottedCandidate(){
 		//System.out.println("Selected Candidate is  "+b.getCandidate());
 	}

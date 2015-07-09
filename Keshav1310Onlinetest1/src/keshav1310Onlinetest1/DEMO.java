@@ -17,7 +17,7 @@ public class DEMO {
 		EVM e = new EVM();
 		BU b = new BU(3);
 		
-		b.castVote(1);
+		e.pressBlueButton(1);;
 		e.getVottedCandidate();
 		System.out.println("Thank You !!!");
 
